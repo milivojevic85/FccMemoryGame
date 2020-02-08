@@ -9,8 +9,12 @@ function flipCard() {
 		// first click
 		hasFlippedCard = true;
 		firstCard = this;
+	} else {
+		// second click
+		hasFlippedCard = false;
+		secondCard = this;
 		
-		console.log({hasFlippedCard, firstCard});
+		console.log({firstCard, secondCard});
 	}
 }
 
