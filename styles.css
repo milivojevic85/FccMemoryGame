@@ -28,6 +28,9 @@ body {
 	transform: scale(.97);
 	transition: transform .2s;
 }
+.memoryCard.flip {
+	transform: rotateY(180deg);
+}
 
 .frontFace, .backFace {
 	width: 100%;
